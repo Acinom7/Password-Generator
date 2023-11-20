@@ -126,9 +126,6 @@ function getPasswordOptions() {
   specialCharacters = confirm(
     "Click OK to confirm including special characters."
   );
-  if (specialCharacters) {
-    allCharacters += allCharacters.concat(specialCharacters);
-  }
   numericCharacters = confirm(
     "Click OK to confirm including numeric characters."
   );
@@ -149,9 +146,6 @@ function getPasswordOptions() {
   }
 }
 getPasswordOptions();
-
-// Function for getting a random element from an array
-function getRandom(arr) {}
 
 // Function to generate password with user input
 
